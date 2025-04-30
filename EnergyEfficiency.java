@@ -33,7 +33,7 @@ public class EnergyEfficiency {
         System.out.println("Una calificación " + bad + " es mala.");
 
         //Reemplaza <very_bad> concatenando el String con la variable creada.
-        System.out.println("Una calificación <very_bad> es muy mala.");
+        System.out.println("Una calificación " + veryBad + " es muy mala.");
 
     }
 }
