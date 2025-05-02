@@ -5,8 +5,10 @@ public class Cakes {
         int cake = 1;
         int people = 5;
 
-        //Cuando dividimos dos enteros cabe la posibilidad de que el resultado sea una fracción, pero no está bien cambiar a double algo que conceptualmente es un entero (como el pastel o las personas)
-        //Para que el resultado cambie de tipo usamos "type casting" y se hace agregando entre paréntesis lo que queremos convertir
+        //Cuando dividimos dos enteros cabe la posibilidad de que el resultado sea una fracción, pero no está bien cambiar
+        // a double algo que conceptualmente es un entero (como el pastel o las personas)
+        //Para que el resultado cambie de tipo usamos "type casting" y se hace agregando entre paréntesis lo que queremos
+        // convertir
         
         //Corre el siguiente código
         System.out.println("Cada persona se lleva " + ((double)cake / people) + " partes de pastel");
@@ -17,19 +19,23 @@ public class Cakes {
 
         //Declara y asigna un valor a una variable double
         //Escribe aquí tu código
-        System.out.println("Valor original de double: <doubleValue>");
+        double testNum = 5.6;
+        System.out.println("Valor original de double: " + testNum);
 
         //Convierte double a int
         //Escribe aquí tu código
-        System.out.println("Valor convertido de double a int: <intValue>");
+        testNum = (int)testNum;
+        System.out.println("Valor convertido de double a int: " + testNum);
 
         //Declara y asigna un valor a una variable int
         //Escribe aquí tu código
-        System.out.println("Valor original de int: <anotherIntValue>");
+        int exampleNum = 78;
+        System.out.println("Valor original de int: " + exampleNum);
 
         //Convierte int a double
         //Escribe aquí tu código
-        System.out.println("Valor convertido de int a double: <anotherDoubleValue>");
+        double exampleChangeNum = exampleNum;
+        System.out.println("Valor convertido de int a double: " + exampleChangeNum);
                
     }
 }

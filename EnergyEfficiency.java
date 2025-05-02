@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class EnergyEfficiency {
     public static void main(String[] args) {
         //inicializar variables (del tipo que veas conveniente) para las calificaciones A, B, C, D, E, F y G
@@ -12,10 +14,8 @@ public class EnergyEfficiency {
         char bad = 'F';
         char veryBad = 'G';
 
-
-
         //Reemplaza <very_good> concatenando el String con la variable creada. 
-        System.out.println("Una calificación " + veryGood + " es muy buena.");
+        System.out.println("Una calificación  " + veryGood + " es muy buena.");
 
         //Reemplaza <good> concatenando el String con la variable creada. 
         System.out.println("Una calificación " + good + " es buena.");
