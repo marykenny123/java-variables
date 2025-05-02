@@ -22,6 +22,6 @@ public class AboutMe {
         System.out.println("Estoy estudiando " + progLang + " y practico " + numHours + " horas al día.");
 
         //Reemplaza <hobby> y <place> concatenando el String con las variables creadas.
-        System.out.println("Mi pasatiempo favorito es " + hobby + " y lo practico en " + hobbyPlace);
+        System.out.println("Mi pasatiempo favorito es " + hobby + " y lo practico en " + hobbyPlace + ".");
     }
 }

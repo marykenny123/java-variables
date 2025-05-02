@@ -15,7 +15,7 @@ public class EnergyEfficiency {
         char veryBad = 'G';
 
         //Reemplaza <very_good> concatenando el String con la variable creada. 
-        System.out.println("Una calificación  " + veryGood + " es muy buena.");
+        System.out.println("Una calificación " + veryGood + " es muy buena.");
 
         //Reemplaza <good> concatenando el String con la variable creada. 
         System.out.println("Una calificación " + good + " es buena.");

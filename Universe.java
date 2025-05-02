@@ -22,7 +22,8 @@ public class Universe {
         //Inténtalo de nuevo
 
         //Escribe aquí tu código
-        //long worldPopul = ;
+        //long worldPopul = 8118302456L;
+        //System.out.println(("test" + worldPopul));
 
 
 
